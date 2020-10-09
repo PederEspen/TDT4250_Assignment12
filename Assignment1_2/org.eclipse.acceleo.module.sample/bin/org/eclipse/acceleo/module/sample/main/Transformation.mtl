@@ -1,0 +1,38 @@
+[comment encoding = UTF-8 /]
+[module Transformation('platform:/Assignment1/model/assignment1.ecore')]
+
+
+[template public generateElement(aSpecialization : Specialization)]
+[comment @main/]
+[file (aSpecialization.name.concat('.html'), false, 'UTF-8')]
+
+<html>
+	<head>
+		
+	</head>
+	
+	<body>
+		<h1> Specialization: [aSpecialization.name/] </h1>
+		<h2> Graduation Year: [aSpecialization.program.gradYear/]  </h2>
+
+		[for (year : Year | aSpecialization.program.year)]
+			<h3> Year number: [year.number/] <h3>
+			<h3> Number of credits: [year.credits/] </h3>
+			<hr/>
+			[for (course : Course | year.courseChoice.course)]
+			<b>Course code:</b> [course.courseCode/] <br/>
+			<b>Name:</b> [course.name/] <br/>
+			<b>Role:</b> [course.role/] <br/>
+			<b>Credits:</b> [course.credits/] <br/>
+			<b>Level:</b> [course.level/] <br/>
+			<br/>
+			<hr/>
+			<br/>
+		[/for]
+		[/for]
+	
+	</body>
+</html>
+[/file]
+[/template]
+

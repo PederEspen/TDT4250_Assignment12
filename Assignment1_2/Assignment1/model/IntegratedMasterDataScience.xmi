@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assignment1:Specialization
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:assignment1="platform:/Assignment1/model/assignment1.ecore"
+    xsi:schemaLocation="platform:/Assignment1/model/assignment1.ecore assignment1.ecore"
+    name="IntegratedMasterDataScience">
+  <program gradYear="2025"
+      specialization="/">
+    <year number="1"
+        credits="60.0">
+      <courseChoice
+          criteria="None">
+        <course
+            role="Mandatory"
+            courseCode="EXPH0004"
+            credits="7.5"
+            name="Exphil"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="HMS0002"
+            name="HMS-course for 1st year students"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4110"
+            credits="7.5"
+            name="ITGK"
+            level="First "/>
+        <course
+            role="Mandatory"
+            courseCode="TMA4110"
+            credits="7.5"
+            name="Matematikk 1"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TMA4140"
+            credits="7.5"
+            name="Diskret Matematikk"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4100"
+            credits="7.5"
+            name="Objektorientert Programmering"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4112"
+            credits="7.5"
+            name="Programmeringslab"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TFE4101"
+            credits="7.5"
+            name="Krets- og digitalteknikk"
+            level="First"/>
+        <course
+            role="Mandatory"
+            courseCode="TMA4115"
+            credits="7.5"
+            name="Matematikk 3"
+            level="First"/>
+      </courseChoice>
+    </year>
+    <year number="2"
+        credits="60.0">
+      <courseChoice
+          criteria="None">
+        <course
+            role="Mandatory"
+            courseCode="TDT4113"
+            credits="7.5"
+            name="Datateknologi, prosjekt"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4210"
+            credits="7.5"
+            name="Algoritmer"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4160"
+            credits="7.5"
+            name="Datamaskiner og teknikk"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TMA4240"
+            credits="7.5"
+            name="Statistikk"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4140"
+            credits="7.5"
+            name="Programvareutvikling"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4145"
+            credits="7.5"
+            name="Datamodellering"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TDT4180"
+            credits="7.5"
+            name="Menneskemaskin-intreasakjon"
+            level="Second"/>
+        <course
+            role="Mandatory"
+            courseCode="TTM4100"
+            credits="7.5"
+            name="Kommunikasjon"
+            level="Second"/>
+      </courseChoice>
+    </year>
+  </program>
+</assignment1:Specialization>
