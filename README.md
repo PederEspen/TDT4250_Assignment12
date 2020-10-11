@@ -4,7 +4,8 @@ For this assignment I have co-operated with Eskild Brobak: eskildbr@stud.ntnu.no
 
 Decisions
 
-We decided to not include any semesters in the assignment, because in the first assignment we included years which contains two semesters. We did not change the model from the first assignment either, because it worked and it did show the information we wanted to present. However, we now see that it would be better to include semesters for the model so that the information about subjects and semesters is more presentable and clear, and so that it more closely resembles the main 
+We decided to not include any semesters in the assignment, because in the first assignment we included years which contains two semesters. We did not change the model from the first assignment either, because it worked and it did show the information we wanted to present. However, we now see that it would be better to include semesters for the model so that the information about subjects and semesters is more presentable and clear, and so that it more closely resembles the sites described in the assignment.
+
 HOW-TO:
 
 Clone the repo
