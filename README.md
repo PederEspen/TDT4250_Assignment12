@@ -19,13 +19,13 @@ Clone the repo
 9. Hit apply and run.
 Note: Remember to delete the HTML files so that you see that it actually works.
 
-We had much trouble with a file that for some reason just dissapears. If you get a error message that says that you do not have the "transformation.emtl" file:
+We had much trouble with a file that for some reason just dissapears when cloning the repo. If you get a error message that says that you do not have the "transformation.emtl" file:
 
-Open up terminal and type in "git restore org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main/Transformation.emtl"
+1. Open up terminal and type in "git restore org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main/Transformation.emtl"
 
-Start from point 7. in the HOW-TO list
+2. Start from point 7. in the HOW-TO list
 
-Manually download the file from this repo. Should be found inside org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
+3. Manually download the file from this repo. Should be found inside org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
 
-Put the missing file in org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
+4. Put the missing file in org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
 
